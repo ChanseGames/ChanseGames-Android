@@ -5,9 +5,9 @@ android {
     buildToolsVersion "25.0.2"
 
     // Allowing the default public variant of this module to be Production Release
-    defaultPublishConfig "prodRelease"
+//    defaultPublishConfig "prodRelease"
     // Allow this library to be able to publish non default builds also
-    publishNonDefault true
+//    publishNonDefault true
 
     defaultConfig {
         minSdkVersion 16
@@ -21,16 +21,16 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-    productFlavors {
-        dev {
-            buildConfigField "String", "HOST_APP_PACKAGE", "\"com.chanse.cee2048.debug\""
-            buildConfigField "String", "HOST_APP_SERVICE", "\"com.chanse.cee2048.common.GameService\""
-        }
-        prod {
-            buildConfigField "String", "HOST_APP_PACKAGE", "\"com.chanse.cee2048\""
-            buildConfigField "String", "HOST_APP_SERVICE", "\"com.chanse.cee2048.common.GameService\""
-        }
-    }
+//    productFlavors {
+//        dev {
+//            buildConfigField "String", "HOST_APP_PACKAGE", "\"com.chanse.cee2048.debug\""
+//            buildConfigField "String", "HOST_APP_SERVICE", "\"com.chanse.cee2048.common.GameService\""
+//        }
+//        prod {
+//            buildConfigField "String", "HOST_APP_PACKAGE", "\"com.chanse.cee2048\""
+//            buildConfigField "String", "HOST_APP_SERVICE", "\"com.chanse.cee2048.common.GameService\""
+//        }
+//    }
     return void
 }
 
