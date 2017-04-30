@@ -10,6 +10,7 @@ import android.os.Parcel;
 import android.os.Parcelable;
 
 import com.chanse.games.sdk.common.ChanseConstants;
+import com.chanse.games.sdk.common.TimeUtil;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;
@@ -86,7 +87,7 @@ public class Game implements Parcelable {
             // Properties key is not there in the game map, this means the object represents the older version of Game,
             // So put the required fields manually to properties
             properties.put("Moves", gameMap.get(ChanseConstants.MOVES));
-            properties.put("Time Taken", gameMap.get(ChanseConstants.ELAPSED_TIME));
+            properties.put("Time Taken", TimeUtil.formatElapsedTime((long) gameMap.get(ChanseConstants.ELAPSED_TIME)));
             properties.put("Pauses", gameMap.get(ChanseConstants.PAUSES));
         }
     }
