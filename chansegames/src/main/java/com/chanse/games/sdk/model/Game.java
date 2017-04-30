@@ -4,12 +4,12 @@
  * Proprietary and confidential
  */
 
-package com.chanse.games.model;
+package com.chanse.games.sdk.model;
 
 import android.os.Parcel;
 import android.os.Parcelable;
 
-import com.chanse.games.common.ChanseConstants;
+import com.chanse.games.sdk.common.ChanseConstants;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;

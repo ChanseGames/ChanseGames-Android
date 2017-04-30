@@ -1,12 +1,13 @@
-package com.chanse.games;
+package com.chanse.games.sdk;
 
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.chanse.games.common.ChanseConstants;
-import com.chanse.games.model.Game;
+import com.chanse.games.BuildConfig;
+import com.chanse.games.sdk.common.ChanseConstants;
+import com.chanse.games.sdk.model.Game;
 
 /**
  * This class manages all the games completed or played in 3rd party game apps.

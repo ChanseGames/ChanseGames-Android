@@ -4,7 +4,7 @@
  * Proprietary and confidential
  */
 
-package com.chanse.games.common;
+package com.chanse.games.sdk.common;
 
 /**
  * All constants related to Firebase database should be present here.

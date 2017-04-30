@@ -1,4 +1,4 @@
-package com.chanse.games;
+package com.chanse.games.sdk;
 
 import org.junit.Test;
 
