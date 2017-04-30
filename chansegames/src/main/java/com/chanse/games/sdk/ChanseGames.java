@@ -5,7 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.chanse.games.BuildConfig;
+import com.chanse.games.sdk.BuildConfig;
 import com.chanse.games.sdk.common.ChanseConstants;
 import com.chanse.games.sdk.model.Game;
 

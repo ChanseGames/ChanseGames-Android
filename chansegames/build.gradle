@@ -23,12 +23,12 @@ android {
     }
     productFlavors {
         dev {
-            buildConfigField "String", "HOST_APP_PACKAGE", "\"com.chanse.cee2048.debug\""
-            buildConfigField "String", "HOST_APP_SERVICE", "\"com.chanse.cee2048.common.GameService\""
+            buildConfigField "String", "HOST_APP_PACKAGE", "\"com.chanse.games.debug\""
+            buildConfigField "String", "HOST_APP_SERVICE", "\"com.chanse.games.common.GameService\""
         }
         prod {
-            buildConfigField "String", "HOST_APP_PACKAGE", "\"com.chanse.cee2048\""
-            buildConfigField "String", "HOST_APP_SERVICE", "\"com.chanse.cee2048.common.GameService\""
+            buildConfigField "String", "HOST_APP_PACKAGE", "\"com.chanse.games\""
+            buildConfigField "String", "HOST_APP_SERVICE", "\"com.chanse.games.common.GameService\""
         }
     }
     return void

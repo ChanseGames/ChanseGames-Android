@@ -1,4 +1,4 @@
-package com.chanse.games.sample;
+package com.chanse.games.sdk.sample;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
